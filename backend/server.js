@@ -2,7 +2,7 @@ const express = require("express")
 
 const app = express()
 const dotenv = require("dotenv").config()
-const connectDb = require('./config/connectonDb')
+const connectDb = require('./config/connectionDb')
 const PORT = process.env.PORT || 3001
 
 connectDb()
